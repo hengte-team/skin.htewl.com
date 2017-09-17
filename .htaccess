@@ -1,0 +1,39 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    Options +FollowSymLinks
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond $1 !^(index\.php|(.*)\.swf|images|robots\.txt|css|docs|cache)
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+<IfModule deflate_module>
+   SetOutputFilter DEFLATE
+#   DeflateCompressionLevel 9
+   # Don’t compress images and other
+   SetEnvIfNoCase Request_URI .(?:gif|jpe?g|png)$ no-gzip dont-vary
+   SetEnvIfNoCase Request_URI .(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+   SetEnvIfNoCase Request_URI .(?:pdf|doc)$ no-gzip dont-vary
+   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+   AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+#跨域字体
+AddType application/vnd.ms-fontobject .eot
+AddType font/truetype .ttf
+AddType font/opentype .otf
+AddType font/opentype .woff
+AddType image/svg+xml .svg .svgz
+AddEncoding gzip .svgz
+<FilesMatch "\.(ttf|otf|eot|woff|woff2|svg)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /application/errors/404.php
+</IfModule>
+
