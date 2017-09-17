@@ -188,14 +188,15 @@
 .bz-alert h4{margin: 0;padding: 0;text-align: left;width: 100%;padding: 0.2rem 0.6rem;background-color: #0E90D2;font-size: 0.8rem;color: #fff;font-weight: normal;}
 .alert-content{line-height: 3.036rem;height: 3.036rem;}
 
-.user-head{position:fixed;top:0;left:0;width:100%;height:2.2rem;background-color:#fff;z-index:993;}
-.user-head li{width:33%;height:100%;}
-.user-head li a{display:block;width:100%;height:100%;color:#8B9096;text-align: center;}
+.user-head{position:fixed;top:0;left:0;width:100%;height:2.7rem;background-color:#FF4200;z-index:993;}
+.user-head ul{height:100%;}
+.user-head li{width:33.33%;height:100%;padding-top: 0.25rem;}
+.user-head li a{display:block;width:100%;height:100%;color:#fff;text-align: center;}
 .user-head li i{font-size:1.4rem;display: inline;}
 .user-head li p{font-size:0.7rem;display: inline;vertical-align: text-top;}
-.user-head li.active a,.user-head li:ative a{color:#FF0000;}
+.user-head li.active a{color:#FF4200;}
 
-.user-content{margin-top:2.2rem;height:8.6rem;}
+.user-content{margin-top:2.7rem;height:8.6rem;}
 .user-content a,.user-content a img{width: 100%;height: 100%;display: block;}
 .user-content a{margin: 0.125rem 0;}
 /*  个人中心  */
@@ -260,7 +261,7 @@
 .user-foot li a{display:block;width:100%;height:100%;color:#8B9096;}
 .user-foot li i{height:2.1rem;line-height:2.7rem;display:block;text-align:center;font-size:1.4rem;}
 .user-foot li p{height:1.178rem;line-height:0.9rem;font-size:0.7rem;text-align:center;}
-.user-foot li.active a,.user-foot li:active a{color:#FF0000;}
+.user-foot li.active a,.user-foot li:active a{color:#FF4200;}
 
 .user-ad a{position: relative;display: block;}
 .am-alert.user-ad{border: none;background: none;padding: 0;margin: 0;}
@@ -1456,7 +1457,7 @@ a.log-beizhu i{display:block;transform:rotate(180deg);-ms-transform:rotate(180de
 .rul-bottom img{width: 100%;}
 
 /*流程公用*/
-.process-header{ width: 100%; height: 2.7rem; background-color: #3a3a3a; color: #fff; line-height: 2.7rem;}
+.process-header{ width: 100%; height: 2.7rem; background-color: #FF4200; color: #fff; line-height: 2.7rem;}
 .process-header .return{ width: 30%; padding-left: 1.5rem;}
 .process-header .return i{ display: block; color: #fff;}
 .process-header .title{ width: 45%; text-align: center; font-size: 0.857rem; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
