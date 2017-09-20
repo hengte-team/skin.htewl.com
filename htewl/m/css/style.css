@@ -263,6 +263,31 @@
 .user-foot li p{height:1.178rem;line-height:0.9rem;font-size:0.7rem;text-align:center;}
 .user-foot li.active a,.user-foot li:active a{color:#FF4200;}
 
+/*  个人中心  */
+.user-ucenter{}
+.user-ucenter ul{margin-top: 0.714rem;}
+.user-ucenter ul ol.sep-button{padding: 0;background-color:#fff;margin-top: 1rem;margin-bottom: 0;}
+.user-ucenter ul ol li{padding:0 0.714rem;}
+.user-ucenter .cash-overplus{margin:0;font-weight:normal;width:100%;height:4.642rem;line-height:4.642rem;color: #000;}
+.user-ucenter .cash-overplus .cash-money{font-size:0.95rem;color:#242424}
+.user-ucenter .cash-overplus .cash-money p{margin:0;}
+.user-ucenter .cash-overplus .cash-money i{font-style:normal;margin-left:0.821rem;color:#FC5648;}
+.user-ucenter .cash-overplus i{display:block;}
+.user-ucenter .cash-overplus i.cash-avatar{font-size: 3.8rem;width:4.5rem;color:#FF4200;}
+.cash-icon{display:block;width:1rem;height:100%;color:#B6B6B6;line-height:3.214rem;}
+.user-ucenter .cash-overplus .cash-icon{height:4.642rem;line-height:4.642rem;}
+.user-ucenter .cash-option{background-color:#fff;height:3rem;line-height:3rem;margin-bottom:0.785rem;}
+.user-ucenter .cash-option a{width:50%;font-size:0.95rem;display:block;text-align:center;border-bottom:1px #CFCFCF solid;color:#242424;}
+.user-ucenter .cash-option a:nth-child(1){border-right:1px #DDDDDD solid;}
+.user-ucenter .cash-option a:active{background-color:#DDDDDD;}
+.user-ucenter .cash-ul{background-color:#fff;padding-left:0}
+.user-ucenter .cash-ul ol{margin-top:1rem;}
+.user-ucenter .cash-ul li{height:3.214rem;width:100%;border-bottom:1px #DDDDDD solid;}
+.user-ucenter .cash-ul li a{width:100%;height:100%;color:#000000;}
+.user-ucenter .cash-ul li p{line-height:3.214rem;height:3.214rem;font-size:0.95rem;margin:0;}
+.user-ucenter .cash-ul li a i.cash-num{font-style:normal;font-size:0.9rem;display:block;line-height:3.214rem;margin-right:0.645rem;color:#818181;}
+.cash-text .cash-ul li a i.cash-num span{color:#53C3F1;margin-right:0.1rem;}
+
 .user-ad a{position: relative;display: block;}
 .am-alert.user-ad{border: none;background: none;padding: 0;margin: 0;}
 .user-ad .am-close{position: absolute;right: 1rem;top: 50%;margin-top: -0.75rem;text-align: center;opacity: 1; }
@@ -297,48 +322,6 @@
 .ct-sject .ct-option li a i,.ct-sject .ct-form i{margin-right:0.536rem;color: #A4A4A4;font-size: 1.1rem;display:block;float:left;height:3.143rem;line-height:3.143rem;}
 .ct-sject .ct-option li a p{margin:0;float:left;}
 .ct-sject .ct-option li a i.icon-rgt,.ct-sject .ct-form i.icon-rgt{float: right;font-size:0.9rem;}
-
-/*  我的账户  */
-.my-head{width:100%;height:2.571rem;background-color:#53C3F2;line-height:2.571rem;}
-.my-head .my-return,.my-head .my-erwm{width:16%;height:2.571rem;position:relative;}
-.my-head .my-return a:active,.my-head .my-erwm a:active{background-color:#077CAD;}
-.my-head .my-return a,.my-head .my-erwm a{width:100%;height:100%;display:block;text-align:center;color:#FFF;}
-.my-head .my-return a i,.my-head .my-erwm a i{width:100%;height:100%;text-align:center;color:#FFF;font-size:1.5rem;display:block;line-height:2.6rem;}
-.my-head .my-name{width:68%;height:100%;text-align:center;color:#fff;}
-.my-head .my-erwm a i{line-height:2.571rem;}
-.my-text{padding:1.428rem 0;}
-.my-text .my-list{background-color:#fff;padding:0 0.714rem;border-bottom:1px #CFCFCF solid;margin-bottom:1.428rem;}
-.my-text .my-list li{height:2.857rem;line-height:2.857rem;width:100%;border-bottom:1px #E8E8E8 dashed;}
-.my-text .my-list li.active .dian:before{content:' ';display:block;width:0.535rem;height:0.535rem;background-color:#0099E5;margin:1.16rem auto;border-radius:50%;}
-.alert-confirm{width:14rem;margin:-7rem;}
-.alert-confirm .am-modal-dialog{border-radius:0.15rem;}
-.alert-confirm .am-modal-dialog .am-modal-bd{padding:0.725rem 0.357rem;}
-.alert-confirm .am-modal-footer{height:1.964rem;}
-.alert-confirm .am-modal-footer .am-modal-btn{height:2.142rem;line-height:2.142rem;font-size:1rem;}
-.my-text .my-list li:nth-last-child(1){border:0;}
-.my-text .my-list li a{width:100%;height:100%;color:#242424;}
-.my-text .my-list li p{font-size:0.9rem;margin:0;}
-.my-text .my-list li .my-photo{width:50%;height:100%;}
-.my-text .my-list li .my-photo i{display:block;width:1.785rem;text-align:center;color:#B6B8B7;padding-left:0.821rem;font-size: 0.8rem;}
-.my-text .my-list li .my-photo .photo-text i{float:right;font-size:1rem;}
-.my-text .my-list li .my-photo .photo-img{width:2rem;height:2rem;border-radius:300px;overflow:hidden;margin:0.4rem;}
-.my-text .my-list li .my-photo .photo-img img{border-radius:300px;width:100%;height:100%;display:block;}
-.my-text .my-list li .my-photo .photo-text{text-align:right;color:#B6B8B7;font-size:0.9rem;}
-.my-text .my-list li .my-photo .photo-breed{padding-right:1.785rem;text-align:right;}
-.my-text .my-quit{width:80%;display:block;margin:0 auto;height:1.892rem;line-height:1.892rem;font-size:0.8rem;text-align:center;background-color:#0099E5;color:#fff;border-radius:0.2rem;}
-.my-text .my-pass{margin-bottom:1.428rem;width:100%;height:2.857rem;line-height:2.857rem;background-color:#fff;border-top:1px #CFCFCF solid;border-bottom:1px #CFCFCF solid;color:#242424;padding:0 0.714rem;color:#252525;font-size:0.9rem;}
-.my-text .my-pass i{width:1rem;height:100%;color:#B6B8B7;font-size:0.8rem;}
-
-.my-youbi{/*padding-top: 0.464rem;padding-bottom: 0.464rem;*/ background-color:#53C3F2;}
-.my-youbi-banner{background-color:#53C3F2;}
-.my-youbi-banner img{max-width: 100%;}
-.my-youbi-1{padding: .464rem 0;background-color:#53C3F2;}
-.my-youbi .youbi{float: left;display: block;height: 1.928rem;line-height: 1.928rem;color: #fff;margin-left: 1.25rem;}
-.my-youbi .youbi i{display: inline-block;float: left; width: 1.928rem;height: 1.928rem; background: url("../images/youbiicon.png") no-repeat;background-size: cover;}
-/*.my-youbi .youbi strong,.my-youbi .youbi span{display: inline-block;height: 100%;line-height: 1.928rem;}*/
-.my-youbi .youbi strong{font-size: 1.357rem;margin: 0 0.428rem;}
-.my-youbi .youbi span{font-size: 0.785rem;position: relative;top: -0.214rem;}
-.my-youbi .youbi-rule{float: right;background: #2889cd;color: #fff;padding: 0 0.571rem 0 0.714rem;margin-top: .285rem; border-top-left-radius:0.75rem;border-bottom-left-radius:0.75rem;height: 1.5rem;line-height: 1.5rem; font-size: 0.785rem; }
 
 /*  常用联系人 && 常用地址  */
 .often-text .often-opt{background-color:#fff;}
