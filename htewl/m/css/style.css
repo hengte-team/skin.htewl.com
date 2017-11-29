@@ -711,7 +711,7 @@
 .add-give a p{height:1.5rem;margin:0;line-height:1.5rem;display:block;background-color:#F86A37;border-radius:300px;font-size:0.9rem;color:#fff;}
 
 /*流程公用*/
-.process-header{ width: 100%; height: 2.7rem; background-color: #FF4200; color: #fff; line-height: 2.7rem;padding: 0 0.5rem;}
+.process-header{width: 100%; height: 2.7rem; background-color: #FF4200; color: #fff; line-height: 2.7rem;padding: 0 0.5rem;}
 .process-header .return{ width: 20%; }
 .process-header .return i{ display: block; color: #fff;}
 .process-header .title{ width: 60%; text-align: center; font-size: 0.857rem; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
