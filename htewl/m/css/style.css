@@ -273,8 +273,8 @@
 .user-ucenter .cash-overplus .cash-money p{margin:0;}
 .user-ucenter .cash-overplus .cash-money i{font-style:normal;margin-left:0.821rem;color:#FC5648;}
 .user-ucenter .cash-overplus i{display:block;}
-.user-ucenter .cash-overplus i.cash-avatar{font-size: 3.8rem;width:4.5rem;color:#FF4200;}
-.cash-icon{display:block;width:1rem;height:100%;color:#B6B6B6;line-height:3.214rem;}
+.user-ucenter .cash-overplus i.cash-avatar{font-size: 3.6rem;width:4.5rem;color:#FF4200;}
+.user-ucenter .cash-icon{display:block;width:1rem;height:100%;color:#B6B6B6;line-height:3.214rem;}
 .user-ucenter .cash-overplus .cash-icon{height:4.642rem;line-height:4.642rem;}
 .user-ucenter .cash-option{background-color:#fff;height:3rem;line-height:3rem;margin-bottom:0.785rem;}
 .user-ucenter .cash-option a{width:50%;font-size:0.95rem;display:block;text-align:center;border-bottom:1px #CFCFCF solid;color:#242424;}
@@ -395,7 +395,26 @@
 .addess-rem:hover{color:#333;}
 .addess-foot{position:fixed;height:2.6rem;bottom:0;left:0;width:100%;line-height:2.6rem;background-color:#FF5001;text-align:center;font-size:0.9rem;z-index:993;}
 .addess-foot a{display:block;width:100%;height:100%;color:#fff;}
-
+/*  现金账户  */
+.cash-text {padding-bottom:8rem;}
+.cash-text .cash-overplus{background-color:#fff;margin:0;font-weight:normal;width:100%;height:4.642rem;line-height:4.642rem;border-bottom:1px #DDDDDD solid;padding:0 0.714rem;}
+.cash-text .cash-overplus .cash-money{font-size:0.95rem;color:#242424}
+.cash-text .cash-overplus .cash-money p{margin:0;}
+.cash-text .cash-overplus .cash-money i{font-style:normal;margin-left:0.821rem;color:#FC5648;}
+.cash-text .cash-overplus i{display:block;}
+.cash-text .cash-overplus i.cash-avatar{font-size:2rem;width:3.5rem;text-align:center;color:#FF4200;}
+.cash-text .cash-icon{display:block;width:1rem;height:100%;color:#B6B6B6;line-height:3.214rem;}
+.cash-text .cash-overplus .cash-icon{height:4.642rem;line-height:4.642rem;}
+.cash-text .cash-option{background-color:#fff;height:3rem;line-height:3rem;margin-bottom:0.785rem;}
+.cash-text .cash-option a{width:50%;font-size:0.95rem;display:block;text-align:center;border-bottom:1px #CFCFCF solid;color:#242424;}
+.cash-text .cash-option a:nth-child(1){border-right:1px #DDDDDD solid;}
+.cash-text .cash-option a:active{background-color:#DDDDDD;}
+.cash-text .cash-ul{background-color:#fff;border-top:1px #DDDDDD solid;}
+.cash-text .cash-ul li{height:3.214rem;width:100%;border-bottom:1px #DDDDDD solid;}
+.cash-text .cash-ul li a{width:100%;height:100%;padding:0 0.714rem 0;color:#000000;}
+.cash-text .cash-ul li p{line-height:3.214rem;height:3.214rem;font-size:0.95rem;margin:0;}
+.cash-text .cash-ul li a i.cash-num{font-style:normal;font-size:0.9rem;display:block;line-height:3.214rem;margin-right:0.645rem;color:#818181;}
+.cash-text .cash-ul li a i.cash-num span{color:#53C3F1;margin-right:0.1rem;}
 /* 充值or提现 */
 .full-text{padding-bottom:3.571rem;}
 .full-text ul{margin-top:0.714rem;border-bottom:1px #DDDDDD solid;}
@@ -692,11 +711,11 @@
 .add-give a p{height:1.5rem;margin:0;line-height:1.5rem;display:block;background-color:#F86A37;border-radius:300px;font-size:0.9rem;color:#fff;}
 
 /*流程公用*/
-.process-header{ width: 100%; height: 2.7rem; background-color: #FF4200; color: #fff; line-height: 2.7rem;}
-.process-header .return{ width: 30%; padding-left: 1.5rem;}
+.process-header{ width: 100%; height: 2.7rem; background-color: #FF4200; color: #fff; line-height: 2.7rem;padding: 0 0.5rem;}
+.process-header .return{ width: 20%; }
 .process-header .return i{ display: block; color: #fff;}
-.process-header .title{ width: 45%; text-align: center; font-size: 0.857rem; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
-.process-header .more{ width: 15%; text-align:center;}
+.process-header .title{ width: 60%; text-align: center; font-size: 0.857rem; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
+.process-header .more{ width: 20%; text-align:center;}
 .process-header .more i,.process-header .more a{ font-size: 0.8rem; display: block; color: #fff;}
 
 .separate{ width: 100%; height: 2.5rem; border-bottom: 1px dashed #f43846; position: relative;}
